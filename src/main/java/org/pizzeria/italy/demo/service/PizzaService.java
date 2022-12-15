@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 
 			@Autowired
 			private PizzaRepo pizzaRepo;
-			
+		
 			public List<Pizza> findAll() {
 				
 				return pizzaRepo.findAll();
